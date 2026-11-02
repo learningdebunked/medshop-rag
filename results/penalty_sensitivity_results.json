@@ -1,0 +1,45 @@
+{
+  "SIMULATION_FLAG": "SYNTHETIC_DATA",
+  "results": {
+    "Conservative (mild=0.05, mod=0.15, maj=0.40)": {
+      "sensitivity": 0.3469,
+      "specificity": 0.9804,
+      "precision": 0.9444,
+      "f1": 0.5075,
+      "tp": 17,
+      "fp": 1,
+      "fn": 32,
+      "tn": 50
+    },
+    "Current     (mild=0.10, mod=0.30, maj=0.80)": {
+      "sensitivity": 0.3469,
+      "specificity": 0.9804,
+      "precision": 0.9444,
+      "f1": 0.5075,
+      "tp": 17,
+      "fp": 1,
+      "fn": 32,
+      "tn": 50
+    },
+    "Aggressive  (mild=0.20, mod=0.60, maj=1.60)": {
+      "sensitivity": 0.3469,
+      "specificity": 0.9804,
+      "precision": 0.9444,
+      "f1": 0.5075,
+      "tp": 17,
+      "fp": 1,
+      "fn": 32,
+      "tn": 50
+    },
+    "Uniform     (all=0.40)": {
+      "sensitivity": 0.3673,
+      "specificity": 0.8431,
+      "precision": 0.6923,
+      "f1": 0.48,
+      "tp": 18,
+      "fp": 8,
+      "fn": 31,
+      "tn": 43
+    }
+  }
+}

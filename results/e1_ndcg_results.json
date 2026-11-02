@@ -1,0 +1,694 @@
+{
+  "experiment": "E1_NDCG_Retrieval",
+  "SIMULATION_FLAG": "SYNTHETIC_DATA",
+  "TFIDF_SUBSTITUTE_FOR_BIENCODER": true,
+  "n_queries": 95,
+  "ndcg_k": 10,
+  "alpha_bonferroni": 0.025,
+  "means": {
+    "medshoprag": 0.7514,
+    "bm25_only": 0.7528,
+    "tfidf_only": 0.7575
+  },
+  "wilcoxon_medshop_vs_bm25": {
+    "W": 91.5,
+    "p_value": 0.888,
+    "significant_at_alpha_adj": false,
+    "direction_medshop_better": false
+  },
+  "wilcoxon_medshop_vs_tfidf": {
+    "W": 73.0,
+    "p_value": 0.0824,
+    "significant_at_alpha_adj": false,
+    "direction_medshop_better": false
+  },
+  "H1_verdict": "NOT_SUPPORTED",
+  "H1_note": "Real ShoppingComp evaluation required for definitive conclusion. Results on SYNTHETIC_DATA only.",
+  "per_query": [
+    {
+      "query_id": "Q001",
+      "query_text": "best pain reliever for headache without aspirin",
+      "ndcg_medshop": 0.4792,
+      "ndcg_bm25": 0.4967,
+      "ndcg_tfidf": 0.4914
+    },
+    {
+      "query_id": "Q002",
+      "query_text": "non-drowsy allergy medicine daytime",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 0.906,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q003",
+      "query_text": "sleep aid for adults occasional insomnia",
+      "ndcg_medshop": 0.9675,
+      "ndcg_bm25": 0.9675,
+      "ndcg_tfidf": 0.9675
+    },
+    {
+      "query_id": "Q004",
+      "query_text": "ibuprofen alternative for pain with liver disease",
+      "ndcg_medshop": 0.4716,
+      "ndcg_bm25": 0.5066,
+      "ndcg_tfidf": 0.4716
+    },
+    {
+      "query_id": "Q005",
+      "query_text": "nighttime cold and flu relief",
+      "ndcg_medshop": 0.6934,
+      "ndcg_bm25": 0.6934,
+      "ndcg_tfidf": 0.6934
+    },
+    {
+      "query_id": "Q006",
+      "query_text": "heartburn acid reflux OTC medication",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q007",
+      "query_text": "cough suppressant with mucus loosener",
+      "ndcg_medshop": 0.9469,
+      "ndcg_bm25": 0.9469,
+      "ndcg_tfidf": 0.9469
+    },
+    {
+      "query_id": "Q008",
+      "query_text": "nasal decongestant high blood pressure safe",
+      "ndcg_medshop": 0.6509,
+      "ndcg_bm25": 0.6509,
+      "ndcg_tfidf": 0.6509
+    },
+    {
+      "query_id": "Q009",
+      "query_text": "athlete's foot antifungal cream",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q010",
+      "query_text": "motion sickness prevention pills",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q011",
+      "query_text": "first aid antibiotic ointment wound",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q012",
+      "query_text": "diarrhea relief fast acting",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q013",
+      "query_text": "gas bloating relief",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q014",
+      "query_text": "yeast infection treatment OTC",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q015",
+      "query_text": "urinary tract pain relief OTC",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q016",
+      "query_text": "constipation relief gentle",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q017",
+      "query_text": "eye drops for dry eyes",
+      "ndcg_medshop": 0.9675,
+      "ndcg_bm25": 0.9675,
+      "ndcg_tfidf": 0.9675
+    },
+    {
+      "query_id": "Q018",
+      "query_text": "redness relief eye drops allergy",
+      "ndcg_medshop": 0.9218,
+      "ndcg_bm25": 0.9218,
+      "ndcg_tfidf": 0.9218
+    },
+    {
+      "query_id": "Q019",
+      "query_text": "smoking cessation nicotine patch",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q020",
+      "query_text": "weight loss OTC pill FDA approved",
+      "ndcg_medshop": 0.7904,
+      "ndcg_bm25": 0.7904,
+      "ndcg_tfidf": 0.7904
+    },
+    {
+      "query_id": "Q021",
+      "query_text": "children fever reducer under 12",
+      "ndcg_medshop": 0.6934,
+      "ndcg_bm25": 0.6934,
+      "ndcg_tfidf": 0.8772
+    },
+    {
+      "query_id": "Q022",
+      "query_text": "topical pain relief muscle aches",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q023",
+      "query_text": "anti-itch cream insect bites rash",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q024",
+      "query_text": "wart removal over the counter",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q025",
+      "query_text": "oral pain sore throat spray",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 0.9134,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q027",
+      "query_text": "vitamin C immune support supplement",
+      "ndcg_medshop": 0.9675,
+      "ndcg_bm25": 0.9675,
+      "ndcg_tfidf": 0.9675
+    },
+    {
+      "query_id": "Q028",
+      "query_text": "melatonin sleep supplement adults",
+      "ndcg_medshop": 0.9469,
+      "ndcg_bm25": 0.9469,
+      "ndcg_tfidf": 0.9469
+    },
+    {
+      "query_id": "Q029",
+      "query_text": "fish oil omega 3 heart health",
+      "ndcg_medshop": 0.7977,
+      "ndcg_bm25": 0.7977,
+      "ndcg_tfidf": 0.7977
+    },
+    {
+      "query_id": "Q030",
+      "query_text": "zinc lozenges cold prevention",
+      "ndcg_medshop": 0.7929,
+      "ndcg_bm25": 0.7929,
+      "ndcg_tfidf": 0.7929
+    },
+    {
+      "query_id": "Q031",
+      "query_text": "aspirin low dose daily heart",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q032",
+      "query_text": "hemorrhoid treatment OTC",
+      "ndcg_medshop": 0.6309,
+      "ndcg_bm25": 0.6309,
+      "ndcg_tfidf": 0.6309
+    },
+    {
+      "query_id": "Q034",
+      "query_text": "nasal allergy spray OTC",
+      "ndcg_medshop": 0.9066,
+      "ndcg_bm25": 0.9066,
+      "ndcg_tfidf": 0.9134
+    },
+    {
+      "query_id": "Q035",
+      "query_text": "emergency contraception morning after pill",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q036",
+      "query_text": "nausea relief OTC",
+      "ndcg_medshop": 0.0,
+      "ndcg_bm25": 0.0,
+      "ndcg_tfidf": 0.0
+    },
+    {
+      "query_id": "Q037",
+      "query_text": "non-drowsy decongestant sinus",
+      "ndcg_medshop": 0.6309,
+      "ndcg_bm25": 0.6309,
+      "ndcg_tfidf": 0.6309
+    },
+    {
+      "query_id": "Q038",
+      "query_text": "vitamin D deficiency supplement",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 0.9675
+    },
+    {
+      "query_id": "Q039",
+      "query_text": "stool softener gentle constipation",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q040",
+      "query_text": "antifungal cream jock itch",
+      "ndcg_medshop": 0.906,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 0.906
+    },
+    {
+      "query_id": "Q041",
+      "query_text": "pain reliever elderly safe",
+      "ndcg_medshop": 0.5848,
+      "ndcg_bm25": 0.5051,
+      "ndcg_tfidf": 0.6871
+    },
+    {
+      "query_id": "Q042",
+      "query_text": "cold medicine no drowsiness",
+      "ndcg_medshop": 0.906,
+      "ndcg_bm25": 0.906,
+      "ndcg_tfidf": 0.906
+    },
+    {
+      "query_id": "Q043",
+      "query_text": "heartburn prevention before eating",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q044",
+      "query_text": "allergy medicine non-drowsy seasonal",
+      "ndcg_medshop": 0.9325,
+      "ndcg_bm25": 0.9325,
+      "ndcg_tfidf": 0.8855
+    },
+    {
+      "query_id": "Q045",
+      "query_text": "itch relief bug bites topical",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q046",
+      "query_text": "cough drops sore throat",
+      "ndcg_medshop": 0.8772,
+      "ndcg_bm25": 0.8772,
+      "ndcg_tfidf": 0.8772
+    },
+    {
+      "query_id": "Q047",
+      "query_text": "probiotic digestive health",
+      "ndcg_medshop": 0.4413,
+      "ndcg_bm25": 0.4838,
+      "ndcg_tfidf": 0.4413
+    },
+    {
+      "query_id": "Q048",
+      "query_text": "acne treatment OTC benzoyl peroxide",
+      "ndcg_medshop": 0.0,
+      "ndcg_bm25": 0.0,
+      "ndcg_tfidf": 0.0
+    },
+    {
+      "query_id": "Q049",
+      "query_text": "fungal nail infection treatment",
+      "ndcg_medshop": 0.0,
+      "ndcg_bm25": 0.0,
+      "ndcg_tfidf": 0.0
+    },
+    {
+      "query_id": "Q050",
+      "query_text": "eye lubricant contact lens wearers",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q051",
+      "query_text": "pain reliever pregnancy safe",
+      "ndcg_medshop": 0.5,
+      "ndcg_bm25": 0.3869,
+      "ndcg_tfidf": 0.6309
+    },
+    {
+      "query_id": "Q052",
+      "query_text": "arthritis pain topical cream",
+      "ndcg_medshop": 0.9675,
+      "ndcg_bm25": 0.9675,
+      "ndcg_tfidf": 0.9675
+    },
+    {
+      "query_id": "Q053",
+      "query_text": "migraine headache relief OTC",
+      "ndcg_medshop": 0.3155,
+      "ndcg_bm25": 0.3707,
+      "ndcg_tfidf": 0.3333
+    },
+    {
+      "query_id": "Q054",
+      "query_text": "sleep supplement non habit forming",
+      "ndcg_medshop": 0.906,
+      "ndcg_bm25": 0.8855,
+      "ndcg_tfidf": 0.906
+    },
+    {
+      "query_id": "Q055",
+      "query_text": "dental pain toothache relief",
+      "ndcg_medshop": 0.5803,
+      "ndcg_bm25": 0.6053,
+      "ndcg_tfidf": 0.8066
+    },
+    {
+      "query_id": "Q056",
+      "query_text": "flu symptom relief fever body aches",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q057",
+      "query_text": "sinus congestion relief OTC",
+      "ndcg_medshop": 0.0,
+      "ndcg_bm25": 0.0,
+      "ndcg_tfidf": 0.0
+    },
+    {
+      "query_id": "Q058",
+      "query_text": "stomach upset indigestion OTC",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q059",
+      "query_text": "nasal spray allergy antihistamine",
+      "ndcg_medshop": 0.9134,
+      "ndcg_bm25": 0.9134,
+      "ndcg_tfidf": 0.9218
+    },
+    {
+      "query_id": "Q060",
+      "query_text": "back pain relief medication OTC",
+      "ndcg_medshop": 0.4998,
+      "ndcg_bm25": 0.5105,
+      "ndcg_tfidf": 0.4998
+    },
+    {
+      "query_id": "Q061",
+      "query_text": "children allergy medicine under 6",
+      "ndcg_medshop": 0.8385,
+      "ndcg_bm25": 0.8711,
+      "ndcg_tfidf": 0.818
+    },
+    {
+      "query_id": "Q062",
+      "query_text": "knee pain topical anti-inflammatory",
+      "ndcg_medshop": 0.7328,
+      "ndcg_bm25": 0.7328,
+      "ndcg_tfidf": 0.7328
+    },
+    {
+      "query_id": "Q064",
+      "query_text": "immune booster supplement vitamin",
+      "ndcg_medshop": 0.906,
+      "ndcg_bm25": 0.906,
+      "ndcg_tfidf": 0.906
+    },
+    {
+      "query_id": "Q065",
+      "query_text": "nicotine gum quit smoking",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q066",
+      "query_text": "pink eye relief eye drops OTC",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q067",
+      "query_text": "cold sore treatment OTC lip",
+      "ndcg_medshop": 0.0,
+      "ndcg_bm25": 0.0,
+      "ndcg_tfidf": 0.0
+    },
+    {
+      "query_id": "Q068",
+      "query_text": "period cramp pain reliever",
+      "ndcg_medshop": 0.5498,
+      "ndcg_bm25": 0.5726,
+      "ndcg_tfidf": 0.6005
+    },
+    {
+      "query_id": "Q069",
+      "query_text": "diaper rash cream zinc oxide",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 0.6309
+    },
+    {
+      "query_id": "Q070",
+      "query_text": "sunburn relief aloe cooling",
+      "ndcg_medshop": 0.5,
+      "ndcg_bm25": 0.5,
+      "ndcg_tfidf": 0.5
+    },
+    {
+      "query_id": "Q071",
+      "query_text": "antihistamine allergic reaction hives",
+      "ndcg_medshop": 0.0,
+      "ndcg_bm25": 0.0,
+      "ndcg_tfidf": 0.0
+    },
+    {
+      "query_id": "Q072",
+      "query_text": "cough medicine children",
+      "ndcg_medshop": 0.6934,
+      "ndcg_bm25": 0.6934,
+      "ndcg_tfidf": 0.6934
+    },
+    {
+      "query_id": "Q073",
+      "query_text": "laxative fast constipation overnight",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q074",
+      "query_text": "acid reflux PPI medication",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q075",
+      "query_text": "multivitamin daily supplement",
+      "ndcg_medshop": 0.8072,
+      "ndcg_bm25": 0.7929,
+      "ndcg_tfidf": 0.818
+    },
+    {
+      "query_id": "Q076",
+      "query_text": "omega 3 fish oil capsules",
+      "ndcg_medshop": 0.7977,
+      "ndcg_bm25": 0.7977,
+      "ndcg_tfidf": 0.7977
+    },
+    {
+      "query_id": "Q078",
+      "query_text": "dry skin moisturizer OTC",
+      "ndcg_medshop": 0.8855,
+      "ndcg_bm25": 0.8855,
+      "ndcg_tfidf": 0.7123
+    },
+    {
+      "query_id": "Q079",
+      "query_text": "cold symptoms runny nose OTC",
+      "ndcg_medshop": 0.6979,
+      "ndcg_bm25": 0.6979,
+      "ndcg_tfidf": 0.7123
+    },
+    {
+      "query_id": "Q080",
+      "query_text": "heartburn during pregnancy safe",
+      "ndcg_medshop": 0.6309,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 0.6309
+    },
+    {
+      "query_id": "Q081",
+      "query_text": "pain reliever kidney disease",
+      "ndcg_medshop": 0.5932,
+      "ndcg_bm25": 0.4967,
+      "ndcg_tfidf": 0.7123
+    },
+    {
+      "query_id": "Q082",
+      "query_text": "allergy medicine safe driving",
+      "ndcg_medshop": 0.9325,
+      "ndcg_bm25": 0.9325,
+      "ndcg_tfidf": 0.9469
+    },
+    {
+      "query_id": "Q083",
+      "query_text": "cough medicine alcohol free",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q085",
+      "query_text": "antibiotic ointment minor cuts",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q086",
+      "query_text": "allergy eye drops non-drowsy",
+      "ndcg_medshop": 0.7865,
+      "ndcg_bm25": 0.7865,
+      "ndcg_tfidf": 0.7921
+    },
+    {
+      "query_id": "Q087",
+      "query_text": "pain relief safe blood thinners",
+      "ndcg_medshop": 0.5912,
+      "ndcg_bm25": 0.5803,
+      "ndcg_tfidf": 0.8316
+    },
+    {
+      "query_id": "Q088",
+      "query_text": "motion sickness patch OTC",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q089",
+      "query_text": "decongestant safe heart patients",
+      "ndcg_medshop": 0.4307,
+      "ndcg_bm25": 0.4307,
+      "ndcg_tfidf": 0.4307
+    },
+    {
+      "query_id": "Q090",
+      "query_text": "vitamin B12 deficiency supplement",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q091",
+      "query_text": "probiotic irritable bowel OTC",
+      "ndcg_medshop": 0.0,
+      "ndcg_bm25": 0.0,
+      "ndcg_tfidf": 0.0
+    },
+    {
+      "query_id": "Q092",
+      "query_text": "eye drops presbyopia reading",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q093",
+      "query_text": "fungal cream ringworm treatment",
+      "ndcg_medshop": 0.0,
+      "ndcg_bm25": 0.0,
+      "ndcg_tfidf": 0.0
+    },
+    {
+      "query_id": "Q094",
+      "query_text": "hemorrhoid cream pain relief",
+      "ndcg_medshop": 0.6309,
+      "ndcg_bm25": 0.6309,
+      "ndcg_tfidf": 0.6309
+    },
+    {
+      "query_id": "Q095",
+      "query_text": "cold compress headache migraine",
+      "ndcg_medshop": 0.0,
+      "ndcg_bm25": 0.0,
+      "ndcg_tfidf": 0.0
+    },
+    {
+      "query_id": "Q096",
+      "query_text": "energy supplement fatigue OTC",
+      "ndcg_medshop": 0.6257,
+      "ndcg_bm25": 0.6257,
+      "ndcg_tfidf": 0.634
+    },
+    {
+      "query_id": "Q097",
+      "query_text": "wound care antiseptic spray",
+      "ndcg_medshop": 1.0,
+      "ndcg_bm25": 1.0,
+      "ndcg_tfidf": 1.0
+    },
+    {
+      "query_id": "Q098",
+      "query_text": "nausea morning sickness OTC",
+      "ndcg_medshop": 0.6309,
+      "ndcg_bm25": 0.6309,
+      "ndcg_tfidf": 0.6309
+    },
+    {
+      "query_id": "Q099",
+      "query_text": "chapped lips treatment OTC",
+      "ndcg_medshop": 0.0,
+      "ndcg_bm25": 0.0,
+      "ndcg_tfidf": 0.0
+    },
+    {
+      "query_id": "Q100",
+      "query_text": "pain reliever high blood pressure patient",
+      "ndcg_medshop": 0.5317,
+      "ndcg_bm25": 0.4792,
+      "ndcg_tfidf": 0.6039
+    }
+  ]
+}

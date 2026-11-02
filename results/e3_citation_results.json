@@ -1,0 +1,2120 @@
+{
+  "experiment": "E3_Citation_Accuracy",
+  "SIMULATION_FLAG": "SYNTHETIC_DATA",
+  "MOCK_LLM": true,
+  "n_citations_evaluated": 300,
+  "n_bootstrap_resamples": 10000,
+  "citation_accuracy_threshold_H3": 0.8,
+  "kappa_threshold_H3": 0.7,
+  "citation_accuracy": {
+    "point_estimate": 1.0,
+    "ci_lower_95": 1.0,
+    "ci_upper_95": 1.0
+  },
+  "cohens_kappa": 1.0,
+  "kappa_precondition_met": true,
+  "H3_verdict": "SUPPORTED",
+  "H3_note": "MOCK_LLM: template-based citations. Real LLM evaluation required. Results on SYNTHETIC_DATA only.",
+  "per_citation": [
+    {
+      "query_id": "Q001",
+      "product_id": "P004",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Bayer Aspirin 325mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: Reye syn"
+    },
+    {
+      "query_id": "Q001",
+      "product_id": "P055",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Aspirin 81mg EC][SPL: WARNINGS AND PRECAUTIONS][Evidence: Reye syndrom"
+    },
+    {
+      "query_id": "Q001",
+      "product_id": "P046",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Voltaren Gel][SPL: INDICATIONS AND USAGE][Evidence: arthritis pain top"
+    },
+    {
+      "query_id": "Q002",
+      "product_id": "P005",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Claritin 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney disease"
+    },
+    {
+      "query_id": "Q002",
+      "product_id": "P007",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Zyrtec 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney impairmen"
+    },
+    {
+      "query_id": "Q002",
+      "product_id": "P008",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Allegra 180mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney disease"
+    },
+    {
+      "query_id": "Q003",
+      "product_id": "P025",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: ZzzQuil][SPL: INDICATIONS AND USAGE][Evidence: sleep aid]"
+    },
+    {
+      "query_id": "Q003",
+      "product_id": "P024",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Unisom SleepTabs][SPL: WARNINGS AND PRECAUTIONS][Evidence: alcohol]"
+    },
+    {
+      "query_id": "Q003",
+      "product_id": "P006",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Benadryl 25mg][SPL: INDICATIONS AND USAGE][Evidence: allergy sleep aid"
+    },
+    {
+      "query_id": "Q004",
+      "product_id": "P002",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Advil Ibuprofen 200mg][SPL: INDICATIONS AND USAGE][Evidence: pain anti"
+    },
+    {
+      "query_id": "Q004",
+      "product_id": "P046",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Voltaren Gel][SPL: INDICATIONS AND USAGE][Evidence: arthritis pain top"
+    },
+    {
+      "query_id": "Q004",
+      "product_id": "P032",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: AZO Urinary Pain][SPL: INDICATIONS AND USAGE][Evidence: urinary pain r"
+    },
+    {
+      "query_id": "Q005",
+      "product_id": "P013",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Dayquil Cold Flu][SPL: WARNINGS AND PRECAUTIONS][Evidence: MAO inhibit"
+    },
+    {
+      "query_id": "Q005",
+      "product_id": "P012",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Nyquil Cold Flu][SPL: WARNINGS AND PRECAUTIONS][Evidence: MAO inhibito"
+    },
+    {
+      "query_id": "Q005",
+      "product_id": "P015",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Vicks VapoRub][SPL: INDICATIONS AND USAGE][Evidence: topical cough rel"
+    },
+    {
+      "query_id": "Q006",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q006",
+      "product_id": "P018",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Tums Regular][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney stones h"
+    },
+    {
+      "query_id": "Q006",
+      "product_id": "P042",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Compound W Wart][SPL: INDICATIONS AND USAGE][Evidence: wart removal]"
+    },
+    {
+      "query_id": "Q007",
+      "product_id": "P010",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Robitussin DM][SPL: WARNINGS AND PRECAUTIONS][Evidence: MAO inhibitor "
+    },
+    {
+      "query_id": "Q007",
+      "product_id": "P011",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Mucinex 600mg][SPL: INDICATIONS AND USAGE][Evidence: expectorant mucus"
+    },
+    {
+      "query_id": "Q007",
+      "product_id": "P015",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Vicks VapoRub][SPL: INDICATIONS AND USAGE][Evidence: topical cough rel"
+    },
+    {
+      "query_id": "Q008",
+      "product_id": "P014",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Sudafed PE 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: thyroid]"
+    },
+    {
+      "query_id": "Q008",
+      "product_id": "P009",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Flonase Nasal Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal aller"
+    },
+    {
+      "query_id": "Q008",
+      "product_id": "P054",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Melatonin 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: warfarin inte"
+    },
+    {
+      "query_id": "Q009",
+      "product_id": "P043",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Tinactin Antifungal][SPL: INDICATIONS AND USAGE][Evidence: athlete's f"
+    },
+    {
+      "query_id": "Q009",
+      "product_id": "P030",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Clotrimazole Antifungal][SPL: INDICATIONS AND USAGE][Evidence: athlete"
+    },
+    {
+      "query_id": "Q009",
+      "product_id": "P045",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Icy Hot Cream][SPL: INDICATIONS AND USAGE][Evidence: muscle pain topic"
+    },
+    {
+      "query_id": "Q010",
+      "product_id": "P047",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Dramamine Original][SPL: INDICATIONS AND USAGE][Evidence: motion sickn"
+    },
+    {
+      "query_id": "Q010",
+      "product_id": "P048",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Bonine Meclizine][SPL: INDICATIONS AND USAGE][Evidence: motion sicknes"
+    },
+    {
+      "query_id": "Q010",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q011",
+      "product_id": "P029",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Neosporin][SPL: INDICATIONS AND USAGE][Evidence: wound care antibiotic"
+    },
+    {
+      "query_id": "Q011",
+      "product_id": "P025",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: ZzzQuil][SPL: INDICATIONS AND USAGE][Evidence: sleep aid]"
+    },
+    {
+      "query_id": "Q011",
+      "product_id": "P006",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Benadryl 25mg][SPL: INDICATIONS AND USAGE][Evidence: allergy sleep aid"
+    },
+    {
+      "query_id": "Q012",
+      "product_id": "P017",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Imodium A-D][SPL: INDICATIONS AND USAGE][Evidence: diarrhea]"
+    },
+    {
+      "query_id": "Q012",
+      "product_id": "P016",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Pepto-Bismol][SPL: WARNINGS AND PRECAUTIONS][Evidence: Reye syndrome c"
+    },
+    {
+      "query_id": "Q012",
+      "product_id": "P007",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Zyrtec 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney impairmen"
+    },
+    {
+      "query_id": "Q013",
+      "product_id": "P020",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Gas-X Extra Strength][SPL: INDICATIONS AND USAGE][Evidence: gas relief"
+    },
+    {
+      "query_id": "Q013",
+      "product_id": "P007",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Zyrtec 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney impairmen"
+    },
+    {
+      "query_id": "Q013",
+      "product_id": "P008",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Allegra 180mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney disease"
+    },
+    {
+      "query_id": "Q014",
+      "product_id": "P031",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Monistat 7][SPL: INDICATIONS AND USAGE][Evidence: yeast infection]"
+    },
+    {
+      "query_id": "Q014",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q014",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q015",
+      "product_id": "P032",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: AZO Urinary Pain][SPL: INDICATIONS AND USAGE][Evidence: urinary pain r"
+    },
+    {
+      "query_id": "Q015",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q015",
+      "product_id": "P001",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Tylenol Extra Strength][SPL: WARNINGS AND PRECAUTIONS][Evidence: alcoh"
+    },
+    {
+      "query_id": "Q016",
+      "product_id": "P021",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Dulcolax Laxative][SPL: INDICATIONS AND USAGE][Evidence: constipation]"
+    },
+    {
+      "query_id": "Q016",
+      "product_id": "P022",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: MiraLAX][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney disease consu"
+    },
+    {
+      "query_id": "Q016",
+      "product_id": "P007",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Zyrtec 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney impairmen"
+    },
+    {
+      "query_id": "Q017",
+      "product_id": "P038",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Zaditor Eye Drops][SPL: WARNINGS AND PRECAUTIONS][Evidence: contact le"
+    },
+    {
+      "query_id": "Q017",
+      "product_id": "P037",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Refresh Tears][SPL: INDICATIONS AND USAGE][Evidence: dry eye lubricant"
+    },
+    {
+      "query_id": "Q017",
+      "product_id": "P039",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Clear Eyes Complete][SPL: WARNINGS AND PRECAUTIONS][Evidence: rebound "
+    },
+    {
+      "query_id": "Q018",
+      "product_id": "P038",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Zaditor Eye Drops][SPL: WARNINGS AND PRECAUTIONS][Evidence: contact le"
+    },
+    {
+      "query_id": "Q018",
+      "product_id": "P039",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Clear Eyes Complete][SPL: WARNINGS AND PRECAUTIONS][Evidence: rebound "
+    },
+    {
+      "query_id": "Q018",
+      "product_id": "P036",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Visine Original][SPL: WARNINGS AND PRECAUTIONS][Evidence: contact lens"
+    },
+    {
+      "query_id": "Q019",
+      "product_id": "P035",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NicoDerm CQ Patch][SPL: WARNINGS AND PRECAUTIONS][Evidence: skin irrit"
+    },
+    {
+      "query_id": "Q019",
+      "product_id": "P034",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Nicorette 2mg Gum][SPL: WARNINGS AND PRECAUTIONS][Evidence: jaw proble"
+    },
+    {
+      "query_id": "Q019",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q020",
+      "product_id": "P023",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Alli Weight Loss][SPL: WARNINGS AND PRECAUTIONS][Evidence: organ trans"
+    },
+    {
+      "query_id": "Q020",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q020",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q021",
+      "product_id": "P004",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Bayer Aspirin 325mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: Reye syn"
+    },
+    {
+      "query_id": "Q021",
+      "product_id": "P001",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Tylenol Extra Strength][SPL: WARNINGS AND PRECAUTIONS][Evidence: alcoh"
+    },
+    {
+      "query_id": "Q021",
+      "product_id": "P002",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Advil Ibuprofen 200mg][SPL: INDICATIONS AND USAGE][Evidence: pain anti"
+    },
+    {
+      "query_id": "Q022",
+      "product_id": "P045",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Icy Hot Cream][SPL: INDICATIONS AND USAGE][Evidence: muscle pain topic"
+    },
+    {
+      "query_id": "Q022",
+      "product_id": "P044",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Bengay Ultra Strength][SPL: INDICATIONS AND USAGE][Evidence: muscle jo"
+    },
+    {
+      "query_id": "Q022",
+      "product_id": "P046",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Voltaren Gel][SPL: INDICATIONS AND USAGE][Evidence: arthritis pain top"
+    },
+    {
+      "query_id": "Q023",
+      "product_id": "P028",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Cortizone-10][SPL: WARNINGS AND PRECAUTIONS][Evidence: prolonged use s"
+    },
+    {
+      "query_id": "Q023",
+      "product_id": "P002",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Advil Ibuprofen 200mg][SPL: INDICATIONS AND USAGE][Evidence: pain anti"
+    },
+    {
+      "query_id": "Q023",
+      "product_id": "P045",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Icy Hot Cream][SPL: INDICATIONS AND USAGE][Evidence: muscle pain topic"
+    },
+    {
+      "query_id": "Q024",
+      "product_id": "P042",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Compound W Wart][SPL: INDICATIONS AND USAGE][Evidence: wart removal]"
+    },
+    {
+      "query_id": "Q024",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q024",
+      "product_id": "P058",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Colace 100mg][SPL: INDICATIONS AND USAGE][Evidence: stool softener]"
+    },
+    {
+      "query_id": "Q025",
+      "product_id": "P056",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Chloraseptic Spray][SPL: INDICATIONS AND USAGE][Evidence: sore throat "
+    },
+    {
+      "query_id": "Q025",
+      "product_id": "P040",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Listerine Antiseptic][SPL: INDICATIONS AND USAGE][Evidence: oral antis"
+    },
+    {
+      "query_id": "Q025",
+      "product_id": "P046",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Voltaren Gel][SPL: INDICATIONS AND USAGE][Evidence: arthritis pain top"
+    },
+    {
+      "query_id": "Q026",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q026",
+      "product_id": "P059",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Airborne Immune][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney stone"
+    },
+    {
+      "query_id": "Q026",
+      "product_id": "P058",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Colace 100mg][SPL: INDICATIONS AND USAGE][Evidence: stool softener]"
+    },
+    {
+      "query_id": "Q027",
+      "product_id": "P059",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Airborne Immune][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney stone"
+    },
+    {
+      "query_id": "Q027",
+      "product_id": "P050",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Emergen-C 1000mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney ston"
+    },
+    {
+      "query_id": "Q027",
+      "product_id": "P052",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Vitamin D3 2000IU][SPL: WARNINGS AND PRECAUTIONS][Evidence: thiazide d"
+    },
+    {
+      "query_id": "Q028",
+      "product_id": "P026",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Melatonin 5mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: warfarin inter"
+    },
+    {
+      "query_id": "Q028",
+      "product_id": "P054",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Melatonin 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: warfarin inte"
+    },
+    {
+      "query_id": "Q028",
+      "product_id": "P025",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: ZzzQuil][SPL: INDICATIONS AND USAGE][Evidence: sleep aid]"
+    },
+    {
+      "query_id": "Q029",
+      "product_id": "P053",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Fish Oil 1000mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: anticoagulan"
+    },
+    {
+      "query_id": "Q029",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q029",
+      "product_id": "P058",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Colace 100mg][SPL: INDICATIONS AND USAGE][Evidence: stool softener]"
+    },
+    {
+      "query_id": "Q030",
+      "product_id": "P051",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Zinc Lozenges 23mg][SPL: INDICATIONS AND USAGE][Evidence: cold duratio"
+    },
+    {
+      "query_id": "Q030",
+      "product_id": "P013",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Dayquil Cold Flu][SPL: WARNINGS AND PRECAUTIONS][Evidence: MAO inhibit"
+    },
+    {
+      "query_id": "Q030",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q031",
+      "product_id": "P055",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Aspirin 81mg EC][SPL: WARNINGS AND PRECAUTIONS][Evidence: Reye syndrom"
+    },
+    {
+      "query_id": "Q031",
+      "product_id": "P004",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Bayer Aspirin 325mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: Reye syn"
+    },
+    {
+      "query_id": "Q031",
+      "product_id": "P054",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Melatonin 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: warfarin inte"
+    },
+    {
+      "query_id": "Q032",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q032",
+      "product_id": "P057",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Preparation H][SPL: WARNINGS AND PRECAUTIONS][Evidence: heart disease "
+    },
+    {
+      "query_id": "Q032",
+      "product_id": "P059",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Airborne Immune][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney stone"
+    },
+    {
+      "query_id": "Q033",
+      "product_id": "P041",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Sensodyne ProNamel][SPL: INDICATIONS AND USAGE][Evidence: sensitive te"
+    },
+    {
+      "query_id": "Q033",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q033",
+      "product_id": "P058",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Colace 100mg][SPL: INDICATIONS AND USAGE][Evidence: stool softener]"
+    },
+    {
+      "query_id": "Q034",
+      "product_id": "P009",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Flonase Nasal Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal aller"
+    },
+    {
+      "query_id": "Q034",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q034",
+      "product_id": "P056",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Chloraseptic Spray][SPL: INDICATIONS AND USAGE][Evidence: sore throat "
+    },
+    {
+      "query_id": "Q035",
+      "product_id": "P033",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Plan B One-Step][SPL: WARNINGS AND PRECAUTIONS][Evidence: ectopic preg"
+    },
+    {
+      "query_id": "Q035",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q035",
+      "product_id": "P058",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Colace 100mg][SPL: INDICATIONS AND USAGE][Evidence: stool softener]"
+    },
+    {
+      "query_id": "Q036",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q036",
+      "product_id": "P007",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Zyrtec 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney impairmen"
+    },
+    {
+      "query_id": "Q036",
+      "product_id": "P008",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Allegra 180mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney disease"
+    },
+    {
+      "query_id": "Q037",
+      "product_id": "P005",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Claritin 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney disease"
+    },
+    {
+      "query_id": "Q037",
+      "product_id": "P014",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Sudafed PE 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: thyroid]"
+    },
+    {
+      "query_id": "Q037",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q038",
+      "product_id": "P052",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Vitamin D3 2000IU][SPL: WARNINGS AND PRECAUTIONS][Evidence: thiazide d"
+    },
+    {
+      "query_id": "Q038",
+      "product_id": "P059",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Airborne Immune][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney stone"
+    },
+    {
+      "query_id": "Q038",
+      "product_id": "P017",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Imodium A-D][SPL: INDICATIONS AND USAGE][Evidence: diarrhea]"
+    },
+    {
+      "query_id": "Q039",
+      "product_id": "P058",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Colace 100mg][SPL: INDICATIONS AND USAGE][Evidence: stool softener]"
+    },
+    {
+      "query_id": "Q039",
+      "product_id": "P021",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Dulcolax Laxative][SPL: INDICATIONS AND USAGE][Evidence: constipation]"
+    },
+    {
+      "query_id": "Q039",
+      "product_id": "P022",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: MiraLAX][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney disease consu"
+    },
+    {
+      "query_id": "Q040",
+      "product_id": "P030",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Clotrimazole Antifungal][SPL: INDICATIONS AND USAGE][Evidence: athlete"
+    },
+    {
+      "query_id": "Q040",
+      "product_id": "P045",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Icy Hot Cream][SPL: INDICATIONS AND USAGE][Evidence: muscle pain topic"
+    },
+    {
+      "query_id": "Q040",
+      "product_id": "P043",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Tinactin Antifungal][SPL: INDICATIONS AND USAGE][Evidence: athlete's f"
+    },
+    {
+      "query_id": "Q041",
+      "product_id": "P046",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Voltaren Gel][SPL: INDICATIONS AND USAGE][Evidence: arthritis pain top"
+    },
+    {
+      "query_id": "Q041",
+      "product_id": "P032",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: AZO Urinary Pain][SPL: INDICATIONS AND USAGE][Evidence: urinary pain r"
+    },
+    {
+      "query_id": "Q041",
+      "product_id": "P001",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Tylenol Extra Strength][SPL: WARNINGS AND PRECAUTIONS][Evidence: alcoh"
+    },
+    {
+      "query_id": "Q042",
+      "product_id": "P013",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Dayquil Cold Flu][SPL: WARNINGS AND PRECAUTIONS][Evidence: MAO inhibit"
+    },
+    {
+      "query_id": "Q042",
+      "product_id": "P012",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Nyquil Cold Flu][SPL: WARNINGS AND PRECAUTIONS][Evidence: MAO inhibito"
+    },
+    {
+      "query_id": "Q042",
+      "product_id": "P011",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Mucinex 600mg][SPL: INDICATIONS AND USAGE][Evidence: expectorant mucus"
+    },
+    {
+      "query_id": "Q043",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q043",
+      "product_id": "P018",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Tums Regular][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney stones h"
+    },
+    {
+      "query_id": "Q043",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q044",
+      "product_id": "P005",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Claritin 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney disease"
+    },
+    {
+      "query_id": "Q044",
+      "product_id": "P007",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Zyrtec 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney impairmen"
+    },
+    {
+      "query_id": "Q044",
+      "product_id": "P008",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Allegra 180mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney disease"
+    },
+    {
+      "query_id": "Q045",
+      "product_id": "P028",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Cortizone-10][SPL: WARNINGS AND PRECAUTIONS][Evidence: prolonged use s"
+    },
+    {
+      "query_id": "Q045",
+      "product_id": "P015",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Vicks VapoRub][SPL: INDICATIONS AND USAGE][Evidence: topical cough rel"
+    },
+    {
+      "query_id": "Q045",
+      "product_id": "P030",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Clotrimazole Antifungal][SPL: INDICATIONS AND USAGE][Evidence: athlete"
+    },
+    {
+      "query_id": "Q046",
+      "product_id": "P056",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Chloraseptic Spray][SPL: INDICATIONS AND USAGE][Evidence: sore throat "
+    },
+    {
+      "query_id": "Q046",
+      "product_id": "P038",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Zaditor Eye Drops][SPL: WARNINGS AND PRECAUTIONS][Evidence: contact le"
+    },
+    {
+      "query_id": "Q046",
+      "product_id": "P010",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Robitussin DM][SPL: WARNINGS AND PRECAUTIONS][Evidence: MAO inhibitor "
+    },
+    {
+      "query_id": "Q047",
+      "product_id": "P053",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Fish Oil 1000mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: anticoagulan"
+    },
+    {
+      "query_id": "Q047",
+      "product_id": "P021",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Dulcolax Laxative][SPL: INDICATIONS AND USAGE][Evidence: constipation]"
+    },
+    {
+      "query_id": "Q047",
+      "product_id": "P022",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: MiraLAX][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney disease consu"
+    },
+    {
+      "query_id": "Q048",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q048",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q048",
+      "product_id": "P058",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Colace 100mg][SPL: INDICATIONS AND USAGE][Evidence: stool softener]"
+    },
+    {
+      "query_id": "Q049",
+      "product_id": "P031",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Monistat 7][SPL: INDICATIONS AND USAGE][Evidence: yeast infection]"
+    },
+    {
+      "query_id": "Q049",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q049",
+      "product_id": "P058",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Colace 100mg][SPL: INDICATIONS AND USAGE][Evidence: stool softener]"
+    },
+    {
+      "query_id": "Q050",
+      "product_id": "P037",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Refresh Tears][SPL: INDICATIONS AND USAGE][Evidence: dry eye lubricant"
+    },
+    {
+      "query_id": "Q050",
+      "product_id": "P038",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Zaditor Eye Drops][SPL: WARNINGS AND PRECAUTIONS][Evidence: contact le"
+    },
+    {
+      "query_id": "Q050",
+      "product_id": "P036",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Visine Original][SPL: WARNINGS AND PRECAUTIONS][Evidence: contact lens"
+    },
+    {
+      "query_id": "Q051",
+      "product_id": "P046",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Voltaren Gel][SPL: INDICATIONS AND USAGE][Evidence: arthritis pain top"
+    },
+    {
+      "query_id": "Q051",
+      "product_id": "P032",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: AZO Urinary Pain][SPL: INDICATIONS AND USAGE][Evidence: urinary pain r"
+    },
+    {
+      "query_id": "Q051",
+      "product_id": "P001",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Tylenol Extra Strength][SPL: WARNINGS AND PRECAUTIONS][Evidence: alcoh"
+    },
+    {
+      "query_id": "Q052",
+      "product_id": "P046",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Voltaren Gel][SPL: INDICATIONS AND USAGE][Evidence: arthritis pain top"
+    },
+    {
+      "query_id": "Q052",
+      "product_id": "P045",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Icy Hot Cream][SPL: INDICATIONS AND USAGE][Evidence: muscle pain topic"
+    },
+    {
+      "query_id": "Q052",
+      "product_id": "P003",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Aleve Naproxen 220mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: cardiov"
+    },
+    {
+      "query_id": "Q053",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q053",
+      "product_id": "P007",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Zyrtec 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney impairmen"
+    },
+    {
+      "query_id": "Q053",
+      "product_id": "P008",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Allegra 180mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney disease"
+    },
+    {
+      "query_id": "Q054",
+      "product_id": "P026",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Melatonin 5mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: warfarin inter"
+    },
+    {
+      "query_id": "Q054",
+      "product_id": "P054",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Melatonin 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: warfarin inte"
+    },
+    {
+      "query_id": "Q054",
+      "product_id": "P027",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Valerian Root 500mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: surgery "
+    },
+    {
+      "query_id": "Q055",
+      "product_id": "P032",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: AZO Urinary Pain][SPL: INDICATIONS AND USAGE][Evidence: urinary pain r"
+    },
+    {
+      "query_id": "Q055",
+      "product_id": "P001",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Tylenol Extra Strength][SPL: WARNINGS AND PRECAUTIONS][Evidence: alcoh"
+    },
+    {
+      "query_id": "Q055",
+      "product_id": "P003",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Aleve Naproxen 220mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: cardiov"
+    },
+    {
+      "query_id": "Q056",
+      "product_id": "P012",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Nyquil Cold Flu][SPL: WARNINGS AND PRECAUTIONS][Evidence: MAO inhibito"
+    },
+    {
+      "query_id": "Q056",
+      "product_id": "P001",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Tylenol Extra Strength][SPL: WARNINGS AND PRECAUTIONS][Evidence: alcoh"
+    },
+    {
+      "query_id": "Q056",
+      "product_id": "P013",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Dayquil Cold Flu][SPL: WARNINGS AND PRECAUTIONS][Evidence: MAO inhibit"
+    },
+    {
+      "query_id": "Q057",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q057",
+      "product_id": "P007",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Zyrtec 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney impairmen"
+    },
+    {
+      "query_id": "Q057",
+      "product_id": "P008",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Allegra 180mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney disease"
+    },
+    {
+      "query_id": "Q058",
+      "product_id": "P016",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Pepto-Bismol][SPL: WARNINGS AND PRECAUTIONS][Evidence: Reye syndrome c"
+    },
+    {
+      "query_id": "Q058",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q058",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q059",
+      "product_id": "P009",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Flonase Nasal Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal aller"
+    },
+    {
+      "query_id": "Q059",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q059",
+      "product_id": "P056",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Chloraseptic Spray][SPL: INDICATIONS AND USAGE][Evidence: sore throat "
+    },
+    {
+      "query_id": "Q060",
+      "product_id": "P032",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: AZO Urinary Pain][SPL: INDICATIONS AND USAGE][Evidence: urinary pain r"
+    },
+    {
+      "query_id": "Q060",
+      "product_id": "P001",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Tylenol Extra Strength][SPL: WARNINGS AND PRECAUTIONS][Evidence: alcoh"
+    },
+    {
+      "query_id": "Q060",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q061",
+      "product_id": "P007",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Zyrtec 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney impairmen"
+    },
+    {
+      "query_id": "Q061",
+      "product_id": "P008",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Allegra 180mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney disease"
+    },
+    {
+      "query_id": "Q061",
+      "product_id": "P006",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Benadryl 25mg][SPL: INDICATIONS AND USAGE][Evidence: allergy sleep aid"
+    },
+    {
+      "query_id": "Q062",
+      "product_id": "P002",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Advil Ibuprofen 200mg][SPL: INDICATIONS AND USAGE][Evidence: pain anti"
+    },
+    {
+      "query_id": "Q062",
+      "product_id": "P046",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Voltaren Gel][SPL: INDICATIONS AND USAGE][Evidence: arthritis pain top"
+    },
+    {
+      "query_id": "Q062",
+      "product_id": "P045",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Icy Hot Cream][SPL: INDICATIONS AND USAGE][Evidence: muscle pain topic"
+    },
+    {
+      "query_id": "Q063",
+      "product_id": "P049",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Pedialyte][SPL: INDICATIONS AND USAGE][Evidence: oral rehydration elec"
+    },
+    {
+      "query_id": "Q063",
+      "product_id": "P040",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Listerine Antiseptic][SPL: INDICATIONS AND USAGE][Evidence: oral antis"
+    },
+    {
+      "query_id": "Q063",
+      "product_id": "P056",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Chloraseptic Spray][SPL: INDICATIONS AND USAGE][Evidence: sore throat "
+    },
+    {
+      "query_id": "Q064",
+      "product_id": "P059",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Airborne Immune][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney stone"
+    },
+    {
+      "query_id": "Q064",
+      "product_id": "P052",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Vitamin D3 2000IU][SPL: WARNINGS AND PRECAUTIONS][Evidence: thiazide d"
+    },
+    {
+      "query_id": "Q064",
+      "product_id": "P050",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Emergen-C 1000mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney ston"
+    },
+    {
+      "query_id": "Q065",
+      "product_id": "P034",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Nicorette 2mg Gum][SPL: WARNINGS AND PRECAUTIONS][Evidence: jaw proble"
+    },
+    {
+      "query_id": "Q065",
+      "product_id": "P035",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NicoDerm CQ Patch][SPL: WARNINGS AND PRECAUTIONS][Evidence: skin irrit"
+    },
+    {
+      "query_id": "Q065",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q066",
+      "product_id": "P038",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Zaditor Eye Drops][SPL: WARNINGS AND PRECAUTIONS][Evidence: contact le"
+    },
+    {
+      "query_id": "Q066",
+      "product_id": "P036",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Visine Original][SPL: WARNINGS AND PRECAUTIONS][Evidence: contact lens"
+    },
+    {
+      "query_id": "Q066",
+      "product_id": "P037",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Refresh Tears][SPL: INDICATIONS AND USAGE][Evidence: dry eye lubricant"
+    },
+    {
+      "query_id": "Q067",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q067",
+      "product_id": "P056",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Chloraseptic Spray][SPL: INDICATIONS AND USAGE][Evidence: sore throat "
+    },
+    {
+      "query_id": "Q067",
+      "product_id": "P013",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Dayquil Cold Flu][SPL: WARNINGS AND PRECAUTIONS][Evidence: MAO inhibit"
+    },
+    {
+      "query_id": "Q068",
+      "product_id": "P046",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Voltaren Gel][SPL: INDICATIONS AND USAGE][Evidence: arthritis pain top"
+    },
+    {
+      "query_id": "Q068",
+      "product_id": "P032",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: AZO Urinary Pain][SPL: INDICATIONS AND USAGE][Evidence: urinary pain r"
+    },
+    {
+      "query_id": "Q068",
+      "product_id": "P001",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Tylenol Extra Strength][SPL: WARNINGS AND PRECAUTIONS][Evidence: alcoh"
+    },
+    {
+      "query_id": "Q069",
+      "product_id": "P028",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Cortizone-10][SPL: WARNINGS AND PRECAUTIONS][Evidence: prolonged use s"
+    },
+    {
+      "query_id": "Q069",
+      "product_id": "P051",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Zinc Lozenges 23mg][SPL: INDICATIONS AND USAGE][Evidence: cold duratio"
+    },
+    {
+      "query_id": "Q069",
+      "product_id": "P045",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Icy Hot Cream][SPL: INDICATIONS AND USAGE][Evidence: muscle pain topic"
+    },
+    {
+      "query_id": "Q070",
+      "product_id": "P007",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Zyrtec 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney impairmen"
+    },
+    {
+      "query_id": "Q070",
+      "product_id": "P008",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Allegra 180mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney disease"
+    },
+    {
+      "query_id": "Q070",
+      "product_id": "P028",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Cortizone-10][SPL: WARNINGS AND PRECAUTIONS][Evidence: prolonged use s"
+    },
+    {
+      "query_id": "Q071",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q071",
+      "product_id": "P059",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Airborne Immune][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney stone"
+    },
+    {
+      "query_id": "Q071",
+      "product_id": "P058",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Colace 100mg][SPL: INDICATIONS AND USAGE][Evidence: stool softener]"
+    },
+    {
+      "query_id": "Q072",
+      "product_id": "P010",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Robitussin DM][SPL: WARNINGS AND PRECAUTIONS][Evidence: MAO inhibitor "
+    },
+    {
+      "query_id": "Q072",
+      "product_id": "P015",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Vicks VapoRub][SPL: INDICATIONS AND USAGE][Evidence: topical cough rel"
+    },
+    {
+      "query_id": "Q072",
+      "product_id": "P011",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Mucinex 600mg][SPL: INDICATIONS AND USAGE][Evidence: expectorant mucus"
+    },
+    {
+      "query_id": "Q073",
+      "product_id": "P021",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Dulcolax Laxative][SPL: INDICATIONS AND USAGE][Evidence: constipation]"
+    },
+    {
+      "query_id": "Q073",
+      "product_id": "P022",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: MiraLAX][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney disease consu"
+    },
+    {
+      "query_id": "Q073",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q074",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q074",
+      "product_id": "P042",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Compound W Wart][SPL: INDICATIONS AND USAGE][Evidence: wart removal]"
+    },
+    {
+      "query_id": "Q074",
+      "product_id": "P058",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Colace 100mg][SPL: INDICATIONS AND USAGE][Evidence: stool softener]"
+    },
+    {
+      "query_id": "Q075",
+      "product_id": "P052",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Vitamin D3 2000IU][SPL: WARNINGS AND PRECAUTIONS][Evidence: thiazide d"
+    },
+    {
+      "query_id": "Q075",
+      "product_id": "P026",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Melatonin 5mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: warfarin inter"
+    },
+    {
+      "query_id": "Q075",
+      "product_id": "P054",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Melatonin 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: warfarin inte"
+    },
+    {
+      "query_id": "Q076",
+      "product_id": "P053",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Fish Oil 1000mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: anticoagulan"
+    },
+    {
+      "query_id": "Q076",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q076",
+      "product_id": "P058",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Colace 100mg][SPL: INDICATIONS AND USAGE][Evidence: stool softener]"
+    },
+    {
+      "query_id": "Q077",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q077",
+      "product_id": "P059",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Airborne Immune][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney stone"
+    },
+    {
+      "query_id": "Q077",
+      "product_id": "P058",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Colace 100mg][SPL: INDICATIONS AND USAGE][Evidence: stool softener]"
+    },
+    {
+      "query_id": "Q078",
+      "product_id": "P037",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Refresh Tears][SPL: INDICATIONS AND USAGE][Evidence: dry eye lubricant"
+    },
+    {
+      "query_id": "Q078",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q078",
+      "product_id": "P028",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Cortizone-10][SPL: WARNINGS AND PRECAUTIONS][Evidence: prolonged use s"
+    },
+    {
+      "query_id": "Q079",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q079",
+      "product_id": "P013",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Dayquil Cold Flu][SPL: WARNINGS AND PRECAUTIONS][Evidence: MAO inhibit"
+    },
+    {
+      "query_id": "Q079",
+      "product_id": "P012",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Nyquil Cold Flu][SPL: WARNINGS AND PRECAUTIONS][Evidence: MAO inhibito"
+    },
+    {
+      "query_id": "Q080",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q080",
+      "product_id": "P018",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Tums Regular][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney stones h"
+    },
+    {
+      "query_id": "Q080",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q081",
+      "product_id": "P046",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Voltaren Gel][SPL: INDICATIONS AND USAGE][Evidence: arthritis pain top"
+    },
+    {
+      "query_id": "Q081",
+      "product_id": "P032",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: AZO Urinary Pain][SPL: INDICATIONS AND USAGE][Evidence: urinary pain r"
+    },
+    {
+      "query_id": "Q081",
+      "product_id": "P001",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Tylenol Extra Strength][SPL: WARNINGS AND PRECAUTIONS][Evidence: alcoh"
+    },
+    {
+      "query_id": "Q082",
+      "product_id": "P007",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Zyrtec 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney impairmen"
+    },
+    {
+      "query_id": "Q082",
+      "product_id": "P008",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Allegra 180mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney disease"
+    },
+    {
+      "query_id": "Q082",
+      "product_id": "P006",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Benadryl 25mg][SPL: INDICATIONS AND USAGE][Evidence: allergy sleep aid"
+    },
+    {
+      "query_id": "Q083",
+      "product_id": "P010",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Robitussin DM][SPL: WARNINGS AND PRECAUTIONS][Evidence: MAO inhibitor "
+    },
+    {
+      "query_id": "Q083",
+      "product_id": "P015",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Vicks VapoRub][SPL: INDICATIONS AND USAGE][Evidence: topical cough rel"
+    },
+    {
+      "query_id": "Q083",
+      "product_id": "P011",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Mucinex 600mg][SPL: INDICATIONS AND USAGE][Evidence: expectorant mucus"
+    },
+    {
+      "query_id": "Q084",
+      "product_id": "P025",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: ZzzQuil][SPL: INDICATIONS AND USAGE][Evidence: sleep aid]"
+    },
+    {
+      "query_id": "Q084",
+      "product_id": "P024",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Unisom SleepTabs][SPL: WARNINGS AND PRECAUTIONS][Evidence: alcohol]"
+    },
+    {
+      "query_id": "Q084",
+      "product_id": "P006",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Benadryl 25mg][SPL: INDICATIONS AND USAGE][Evidence: allergy sleep aid"
+    },
+    {
+      "query_id": "Q085",
+      "product_id": "P029",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Neosporin][SPL: INDICATIONS AND USAGE][Evidence: wound care antibiotic"
+    },
+    {
+      "query_id": "Q085",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q085",
+      "product_id": "P058",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Colace 100mg][SPL: INDICATIONS AND USAGE][Evidence: stool softener]"
+    },
+    {
+      "query_id": "Q086",
+      "product_id": "P038",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Zaditor Eye Drops][SPL: WARNINGS AND PRECAUTIONS][Evidence: contact le"
+    },
+    {
+      "query_id": "Q086",
+      "product_id": "P005",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Claritin 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney disease"
+    },
+    {
+      "query_id": "Q086",
+      "product_id": "P039",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Clear Eyes Complete][SPL: WARNINGS AND PRECAUTIONS][Evidence: rebound "
+    },
+    {
+      "query_id": "Q087",
+      "product_id": "P032",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: AZO Urinary Pain][SPL: INDICATIONS AND USAGE][Evidence: urinary pain r"
+    },
+    {
+      "query_id": "Q087",
+      "product_id": "P001",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Tylenol Extra Strength][SPL: WARNINGS AND PRECAUTIONS][Evidence: alcoh"
+    },
+    {
+      "query_id": "Q087",
+      "product_id": "P003",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Aleve Naproxen 220mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: cardiov"
+    },
+    {
+      "query_id": "Q088",
+      "product_id": "P047",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Dramamine Original][SPL: INDICATIONS AND USAGE][Evidence: motion sickn"
+    },
+    {
+      "query_id": "Q088",
+      "product_id": "P048",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Bonine Meclizine][SPL: INDICATIONS AND USAGE][Evidence: motion sicknes"
+    },
+    {
+      "query_id": "Q088",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q089",
+      "product_id": "P014",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Sudafed PE 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: thyroid]"
+    },
+    {
+      "query_id": "Q089",
+      "product_id": "P053",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Fish Oil 1000mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: anticoagulan"
+    },
+    {
+      "query_id": "Q089",
+      "product_id": "P058",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Colace 100mg][SPL: INDICATIONS AND USAGE][Evidence: stool softener]"
+    },
+    {
+      "query_id": "Q090",
+      "product_id": "P052",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Vitamin D3 2000IU][SPL: WARNINGS AND PRECAUTIONS][Evidence: thiazide d"
+    },
+    {
+      "query_id": "Q090",
+      "product_id": "P059",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Airborne Immune][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney stone"
+    },
+    {
+      "query_id": "Q090",
+      "product_id": "P050",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Emergen-C 1000mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: kidney ston"
+    },
+    {
+      "query_id": "Q091",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q091",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q091",
+      "product_id": "P058",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Colace 100mg][SPL: INDICATIONS AND USAGE][Evidence: stool softener]"
+    },
+    {
+      "query_id": "Q092",
+      "product_id": "P038",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Zaditor Eye Drops][SPL: WARNINGS AND PRECAUTIONS][Evidence: contact le"
+    },
+    {
+      "query_id": "Q092",
+      "product_id": "P036",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Visine Original][SPL: WARNINGS AND PRECAUTIONS][Evidence: contact lens"
+    },
+    {
+      "query_id": "Q092",
+      "product_id": "P037",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Refresh Tears][SPL: INDICATIONS AND USAGE][Evidence: dry eye lubricant"
+    },
+    {
+      "query_id": "Q093",
+      "product_id": "P045",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Icy Hot Cream][SPL: INDICATIONS AND USAGE][Evidence: muscle pain topic"
+    },
+    {
+      "query_id": "Q093",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q093",
+      "product_id": "P058",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Colace 100mg][SPL: INDICATIONS AND USAGE][Evidence: stool softener]"
+    },
+    {
+      "query_id": "Q094",
+      "product_id": "P045",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Icy Hot Cream][SPL: INDICATIONS AND USAGE][Evidence: muscle pain topic"
+    },
+    {
+      "query_id": "Q094",
+      "product_id": "P057",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Preparation H][SPL: WARNINGS AND PRECAUTIONS][Evidence: heart disease "
+    },
+    {
+      "query_id": "Q094",
+      "product_id": "P032",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: AZO Urinary Pain][SPL: INDICATIONS AND USAGE][Evidence: urinary pain r"
+    },
+    {
+      "query_id": "Q095",
+      "product_id": "P013",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Dayquil Cold Flu][SPL: WARNINGS AND PRECAUTIONS][Evidence: MAO inhibit"
+    },
+    {
+      "query_id": "Q095",
+      "product_id": "P012",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Nyquil Cold Flu][SPL: WARNINGS AND PRECAUTIONS][Evidence: MAO inhibito"
+    },
+    {
+      "query_id": "Q095",
+      "product_id": "P011",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Mucinex 600mg][SPL: INDICATIONS AND USAGE][Evidence: expectorant mucus"
+    },
+    {
+      "query_id": "Q096",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q096",
+      "product_id": "P052",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Vitamin D3 2000IU][SPL: WARNINGS AND PRECAUTIONS][Evidence: thiazide d"
+    },
+    {
+      "query_id": "Q096",
+      "product_id": "P026",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Melatonin 5mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: warfarin inter"
+    },
+    {
+      "query_id": "Q097",
+      "product_id": "P029",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Neosporin][SPL: INDICATIONS AND USAGE][Evidence: wound care antibiotic"
+    },
+    {
+      "query_id": "Q097",
+      "product_id": "P040",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Listerine Antiseptic][SPL: INDICATIONS AND USAGE][Evidence: oral antis"
+    },
+    {
+      "query_id": "Q097",
+      "product_id": "P056",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Chloraseptic Spray][SPL: INDICATIONS AND USAGE][Evidence: sore throat "
+    },
+    {
+      "query_id": "Q098",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q098",
+      "product_id": "P047",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Dramamine Original][SPL: INDICATIONS AND USAGE][Evidence: motion sickn"
+    },
+    {
+      "query_id": "Q098",
+      "product_id": "P048",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Bonine Meclizine][SPL: INDICATIONS AND USAGE][Evidence: motion sicknes"
+    },
+    {
+      "query_id": "Q099",
+      "product_id": "P019",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Prilosec OTC][SPL: WARNINGS AND PRECAUTIONS][Evidence: do not use more"
+    },
+    {
+      "query_id": "Q099",
+      "product_id": "P060",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: NasalCrom Spray][SPL: INDICATIONS AND USAGE][Evidence: nasal allergy p"
+    },
+    {
+      "query_id": "Q099",
+      "product_id": "P058",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Colace 100mg][SPL: INDICATIONS AND USAGE][Evidence: stool softener]"
+    },
+    {
+      "query_id": "Q100",
+      "product_id": "P054",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Melatonin 10mg][SPL: WARNINGS AND PRECAUTIONS][Evidence: warfarin inte"
+    },
+    {
+      "query_id": "Q100",
+      "product_id": "P046",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: Voltaren Gel][SPL: INDICATIONS AND USAGE][Evidence: arthritis pain top"
+    },
+    {
+      "query_id": "Q100",
+      "product_id": "P032",
+      "citation_complete_r1": true,
+      "reference_label_r2": true,
+      "citation_snippet": "[Product: AZO Urinary Pain][SPL: INDICATIONS AND USAGE][Evidence: urinary pain r"
+    }
+  ]
+}

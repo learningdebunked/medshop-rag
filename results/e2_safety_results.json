@@ -1,0 +1,943 @@
+{
+  "experiment": "E2_Safety_Detection",
+  "SIMULATION_FLAG": "SYNTHETIC_DATA",
+  "n_pairs": 100,
+  "n_major_true": 49,
+  "n_non_major_true": 51,
+  "sensitivity_threshold_H2": 0.8,
+  "medshoprag_metrics": {
+    "tp": 17,
+    "fp": 1,
+    "fn": 32,
+    "tn": 50,
+    "precision": 0.9444,
+    "recall": 0.3469,
+    "f1": 0.5075,
+    "sensitivity": 0.3469,
+    "specificity": 0.9804
+  },
+  "baseline_metrics": {
+    "tp": 0,
+    "fp": 0,
+    "fn": 49,
+    "tn": 51,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "sensitivity": 0.0,
+    "specificity": 1.0
+  },
+  "mcnemar": {
+    "b_medshop_correct_baseline_wrong": 17,
+    "c_baseline_correct_medshop_wrong": 1,
+    "chi2_statistic": 12.5,
+    "p_value": 0.0004,
+    "significant_at_0_05": true,
+    "continuity_correction": true
+  },
+  "H2_verdict": "NOT_SUPPORTED",
+  "H2_sensitivity_achieved": 0.3469,
+  "H2_note": "Real DrugBench evaluation required for definitive conclusion. Results on SYNTHETIC_DATA only.",
+  "per_pair": [
+    {
+      "pair_id": "SP001",
+      "product_id": "P010",
+      "condition": "patient taking MAO inhibitor",
+      "true_major": true,
+      "medshop_flag": true,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP002",
+      "product_id": "P012",
+      "condition": "patient taking MAO inhibitor",
+      "true_major": true,
+      "medshop_flag": true,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP003",
+      "product_id": "P001",
+      "condition": "patient with liver disease",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP004",
+      "product_id": "P002",
+      "condition": "patient taking blood thinners warfarin",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP005",
+      "product_id": "P003",
+      "condition": "patient taking blood thinners warfarin",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP006",
+      "product_id": "P004",
+      "condition": "patient with Reye syndrome risk child",
+      "true_major": true,
+      "medshop_flag": true,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP007",
+      "product_id": "P016",
+      "condition": "child under 12 upset stomach",
+      "true_major": true,
+      "medshop_flag": true,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP008",
+      "product_id": "P023",
+      "condition": "patient taking cyclosporine transplant",
+      "true_major": true,
+      "medshop_flag": true,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP009",
+      "product_id": "P013",
+      "condition": "patient taking MAO inhibitor",
+      "true_major": true,
+      "medshop_flag": true,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP010",
+      "product_id": "P012",
+      "condition": "patient with alcohol use disorder",
+      "true_major": true,
+      "medshop_flag": true,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP011",
+      "product_id": "P014",
+      "condition": "patient with severe hypertension",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP012",
+      "product_id": "P004",
+      "condition": "patient on anticoagulant therapy",
+      "true_major": true,
+      "medshop_flag": true,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP013",
+      "product_id": "P055",
+      "condition": "patient on anticoagulant therapy",
+      "true_major": true,
+      "medshop_flag": true,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP014",
+      "product_id": "P010",
+      "condition": "patient taking SSRI antidepressant",
+      "true_major": true,
+      "medshop_flag": true,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP015",
+      "product_id": "P053",
+      "condition": "patient before surgical procedure",
+      "true_major": true,
+      "medshop_flag": true,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP016",
+      "product_id": "P027",
+      "condition": "patient taking CNS depressant",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP017",
+      "product_id": "P032",
+      "condition": "patient with G6PD deficiency",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP018",
+      "product_id": "P042",
+      "condition": "patient with diabetes foot lesion",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP019",
+      "product_id": "P046",
+      "condition": "patient with heart failure history",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP020",
+      "product_id": "P023",
+      "condition": "patient with gallbladder disease",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP021",
+      "product_id": "P006",
+      "condition": "elderly patient fall risk",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP022",
+      "product_id": "P024",
+      "condition": "elderly patient with BPH",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP023",
+      "product_id": "P025",
+      "condition": "patient taking prescription sleep aid",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP024",
+      "product_id": "P054",
+      "condition": "patient with autoimmune disease",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP025",
+      "product_id": "P033",
+      "condition": "patient with ectopic pregnancy history",
+      "true_major": true,
+      "medshop_flag": true,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP026",
+      "product_id": "P002",
+      "condition": "patient with peptic ulcer",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP027",
+      "product_id": "P003",
+      "condition": "patient with peptic ulcer",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP028",
+      "product_id": "P014",
+      "condition": "patient with angle-closure glaucoma",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP029",
+      "product_id": "P009",
+      "condition": "patient with perforated nasal septum",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP030",
+      "product_id": "P019",
+      "condition": "patient on clopidogrel antiplatelet",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP031",
+      "product_id": "P005",
+      "condition": "healthy adult seasonal allergy",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP032",
+      "product_id": "P007",
+      "condition": "healthy adult seasonal allergy",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP033",
+      "product_id": "P008",
+      "condition": "healthy adult seasonal allergy",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP034",
+      "product_id": "P011",
+      "condition": "adult with productive cough",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP035",
+      "product_id": "P018",
+      "condition": "adult with occasional heartburn",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP036",
+      "product_id": "P020",
+      "condition": "adult with gas and bloating",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP037",
+      "product_id": "P022",
+      "condition": "adult with occasional constipation",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP038",
+      "product_id": "P026",
+      "condition": "adult with jet lag",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP039",
+      "product_id": "P029",
+      "condition": "adult with minor wound cut",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP040",
+      "product_id": "P030",
+      "condition": "adult with athlete's foot",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP041",
+      "product_id": "P037",
+      "condition": "adult with dry eyes",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP042",
+      "product_id": "P038",
+      "condition": "adult with seasonal eye allergies",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP043",
+      "product_id": "P041",
+      "condition": "adult with sensitive teeth",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP044",
+      "product_id": "P043",
+      "condition": "adult with athlete's foot",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP045",
+      "product_id": "P049",
+      "condition": "adult with dehydration after exercise",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP046",
+      "product_id": "P050",
+      "condition": "healthy adult immune support",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP047",
+      "product_id": "P052",
+      "condition": "adult with vitamin D deficiency",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP048",
+      "product_id": "P058",
+      "condition": "adult with hard stool",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP049",
+      "product_id": "P060",
+      "condition": "adult with perennial nasal allergy",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP050",
+      "product_id": "P015",
+      "condition": "adult with chest congestion child 3+",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP051",
+      "product_id": "P001",
+      "condition": "adult with occasional headache",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP052",
+      "product_id": "P005",
+      "condition": "adult with mild hay fever",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP053",
+      "product_id": "P011",
+      "condition": "adult with chest congestion cough",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP054",
+      "product_id": "P017",
+      "condition": "adult with traveler's diarrhea",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP055",
+      "product_id": "P028",
+      "condition": "adult with mild rash insect bite",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP056",
+      "product_id": "P036",
+      "condition": "adult with red eyes computer fatigue",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "moderate"
+    },
+    {
+      "pair_id": "SP057",
+      "product_id": "P039",
+      "condition": "adult contact lens wearer",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "moderate"
+    },
+    {
+      "pair_id": "SP058",
+      "product_id": "P019",
+      "condition": "adult using >14 days continuously",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "moderate"
+    },
+    {
+      "pair_id": "SP059",
+      "product_id": "P021",
+      "condition": "adult using laxative 5 days",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "moderate"
+    },
+    {
+      "pair_id": "SP060",
+      "product_id": "P034",
+      "condition": "adult with mild hypertension on meds",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "moderate"
+    },
+    {
+      "pair_id": "SP061",
+      "product_id": "P002",
+      "condition": "adult with mild kidney impairment",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "moderate"
+    },
+    {
+      "pair_id": "SP062",
+      "product_id": "P026",
+      "condition": "adult on warfarin therapy",
+      "true_major": false,
+      "medshop_flag": true,
+      "baseline_flag": false,
+      "severity_label": "moderate"
+    },
+    {
+      "pair_id": "SP063",
+      "product_id": "P053",
+      "condition": "adult on aspirin low dose",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "moderate"
+    },
+    {
+      "pair_id": "SP064",
+      "product_id": "P007",
+      "condition": "adult with kidney disease moderate",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "moderate"
+    },
+    {
+      "pair_id": "SP065",
+      "product_id": "P009",
+      "condition": "adult using spray >3 months",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "moderate"
+    },
+    {
+      "pair_id": "SP066",
+      "product_id": "P052",
+      "condition": "adult on thiazide diuretics",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "moderate"
+    },
+    {
+      "pair_id": "SP067",
+      "product_id": "P004",
+      "condition": "adult with active stomach ulcer",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP068",
+      "product_id": "P012",
+      "condition": "patient driving vehicle operator",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP069",
+      "product_id": "P006",
+      "condition": "patient operating heavy machinery",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP070",
+      "product_id": "P024",
+      "condition": "patient operating machinery",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP071",
+      "product_id": "P002",
+      "condition": "patient with aspirin allergy NSAIDs",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP072",
+      "product_id": "P003",
+      "condition": "patient with aspirin allergy NSAIDs",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP073",
+      "product_id": "P046",
+      "condition": "patient with aspirin allergy NSAIDs",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP074",
+      "product_id": "P001",
+      "condition": "patient with end stage kidney disease",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP075",
+      "product_id": "P032",
+      "condition": "patient with renal failure",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP076",
+      "product_id": "P033",
+      "condition": "patient already pregnant confirmed",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP077",
+      "product_id": "P010",
+      "condition": "patient taking linezolid antibiotic",
+      "true_major": true,
+      "medshop_flag": true,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP078",
+      "product_id": "P013",
+      "condition": "patient taking linezolid antibiotic",
+      "true_major": true,
+      "medshop_flag": true,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP079",
+      "product_id": "P016",
+      "condition": "patient on anticoagulant warfarin",
+      "true_major": true,
+      "medshop_flag": true,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP080",
+      "product_id": "P055",
+      "condition": "patient taking other NSAIDs",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP081",
+      "product_id": "P050",
+      "condition": "patient with hemochromatosis iron overload",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP082",
+      "product_id": "P027",
+      "condition": "patient 2 weeks before surgery",
+      "true_major": true,
+      "medshop_flag": true,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP083",
+      "product_id": "P023",
+      "condition": "patient with organ transplant cyclosporine",
+      "true_major": true,
+      "medshop_flag": true,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP084",
+      "product_id": "P006",
+      "condition": "patient with urinary retention BPH",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP085",
+      "product_id": "P009",
+      "condition": "patient with nasal septal perforation",
+      "true_major": true,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "major"
+    },
+    {
+      "pair_id": "SP086",
+      "product_id": "P031",
+      "condition": "adult first-time symptoms not confirmed yeast",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "mild"
+    },
+    {
+      "pair_id": "SP087",
+      "product_id": "P037",
+      "condition": "adult using preservative free version",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP088",
+      "product_id": "P040",
+      "condition": "adult following directions correctly",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP089",
+      "product_id": "P048",
+      "condition": "adult occasional travel",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP090",
+      "product_id": "P056",
+      "condition": "adult using 2 days sore throat",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP091",
+      "product_id": "P001",
+      "condition": "adult with normal liver function",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP092",
+      "product_id": "P005",
+      "condition": "adult healthy non-pregnant",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP093",
+      "product_id": "P011",
+      "condition": "adult hydrating well",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP094",
+      "product_id": "P018",
+      "condition": "adult occasional after meals",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP095",
+      "product_id": "P020",
+      "condition": "adult after high fiber meal",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP096",
+      "product_id": "P022",
+      "condition": "adult short-term 3 days",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP097",
+      "product_id": "P026",
+      "condition": "adult short term 2 weeks",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP098",
+      "product_id": "P029",
+      "condition": "adult with normal aminoglycoside tolerance",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP099",
+      "product_id": "P037",
+      "condition": "adult with chronic dry eye",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    },
+    {
+      "pair_id": "SP100",
+      "product_id": "P052",
+      "condition": "adult with confirmed deficiency no comorbidities",
+      "true_major": false,
+      "medshop_flag": false,
+      "baseline_flag": false,
+      "severity_label": "none"
+    }
+  ]
+}
